@@ -12,13 +12,34 @@ body{
     justify-content: center;
 }
 
-.square{
-    min-height: 25px;
-    min-width: 25px;
-    border: 1px solid black;
+button{
+    padding: 10px 15px;
+    margin: 15px 0;
+    background-color: #3b82f6;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    font-weight: bold;
+}
+button:hover{
+    background-color: #1d4ed8;
 }
 
+.square{
+    min-height: 50px;
+    min-width: 50px;
+    border: 1px solid black;
+    flex: auto;
+}
+.square:hover{
+    background-color: #6b7280;
+}
 .row{
     display: flex;
+
+    /*width: 1000px;*/
+    /*height: auto;*/
 }
+
 
